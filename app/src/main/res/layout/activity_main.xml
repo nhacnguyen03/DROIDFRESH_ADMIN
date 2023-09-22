@@ -4,6 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+
     android:layout_height="match_parent"
     tools:context=".MainActivity">
     <androidx.drawerlayout.widget.DrawerLayout
@@ -47,5 +48,35 @@
 
         </LinearLayout>
     </androidx.drawerlayout.widget.DrawerLayout>
+
+
+    <Button
+        android:id="@+id/btn_goi_mon"
+        android:layout_width="163dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="687dp"
+        android:layout_marginBottom="1dp"
+        android:text="Gọi Món"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_nhan_don"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_nhan_don"
+        android:layout_width="163dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="687dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="1dp"
+        android:text="Nhận Đơn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_goi_mon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
