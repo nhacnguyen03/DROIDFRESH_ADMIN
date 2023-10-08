@@ -1,7 +1,7 @@
 <resources>
     <!-- Other styles -->
 
-    <style name="MyAppTheme" parent="Theme.AppCompat.Light">
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Define style attributes here -->
     </style>
 </resources>
